@@ -64,14 +64,12 @@ function sonIguales(x, y) {
   // Devuelve "true" si "x" e "y" son iguales
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (x == y) {
-    return true ;}
-    else {
-      return false ;
-    }
-    }
-  
-
+  if(x == y) {
+    return true;
+  } else {
+    return false;
+  }
+}
 
 function tienenMismaLongitud(str1, str2) {
   // Devuelve "true" si las dos strings tienen la misma longitud
@@ -118,23 +116,22 @@ function esPar(num) {
   // Devuelve "true" si "num" es par
   // De lo contrario, devuelve "false"
   // Tu código:
-  if (num % 3 == 0 ) { 
-  return true;}
-  else { 
-    return false;
-  }
+if(num%3 = 0) {
+  return true;
+} else {
+  return false;
+}
 }
 
 function esImpar(num) {
   // Devuelve "true" si "num" es impar
   // De lo contrario, devuelve "false"
-  // Tu código:
-  if (num % 2 == 1) {
-    return true ;}
-    else {
-      return false;
-  }
-  
+  // Tu código
+if(num%2 == 1) {
+  return true;
+} else {
+  return false;
+}
 }
 
 function elevarAlCuadrado(num) {
@@ -201,15 +198,15 @@ function combinarNombres(nombre, apellido) {
   // Devuelve "nombre" y "apellido" combinados en una string y separados por un espacio.
   // Ejemplo: "Soy", "Henry" -> "Soy Henry"
   // Tu código:
-  var nya = nombre +' '+ apellido ;
-  return nya ;
+  var nya = ('nombre '+' apellido');
+  return nya; 
 }
 
 function obtenerSaludo(nombre) {
   // Toma la string "nombre" y concatena otras string en la cadena para que tome la siguiente forma:
   // "Martin" -> "Hola Martin!"
   // Tu código:
-  return 'Hola ' + nombre + '!';
+var saludo = Marti + ' ' + apellido;
 }
 
 function obtenerAreaRectangulo(alto, ancho) {
